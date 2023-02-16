@@ -1,0 +1,79 @@
+@font-face { font-family: karla; 
+    src: url('Karla-VariableFont_wght.ttf'); }
+
+body {
+    font-family: "karla";
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1F2937;
+    width: 550px;
+    height: 550px;
+}
+
+.row {
+    margin-left: 50px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+#line1 {
+    color: white;
+    margin: 0px;
+}
+
+#line2 {
+    color: #4ADF86;
+    margin: 0px;
+}
+
+p {
+    color: #D5D4D8;
+    margin-bottom: 51px;
+}
+
+hr {
+    height:1px;
+    width: 440px;
+    border-width:0;
+    background-color:#273549;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 0;
+
+  }
+
+button {
+    color: white;
+    background-color: #10B981;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.divPassword {
+    background-color: #273549;
+    height: 40px;
+    width: 210px;
+    border-radius: 6px;  
+    margin: 10px; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-password {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
